@@ -26,9 +26,9 @@
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    width: 100vw;
-    height: 25vh;
+    width: 40vw;
+    height: 20vw;
     background: radial-gradient(circle at center, #8d8aa0, #69576d);
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
+    border-top-left-radius: 20vw;
+    border-top-right-radius: 20vw;
 }

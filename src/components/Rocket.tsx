@@ -4,7 +4,7 @@
 import { useState, useEffect } from "react";
 
 function Rocket() {
-  const [scrollY, setScrollY] = useState(-100);
+  const [scrollY, setScrollY] = useState(0);
 
   useEffect(() => {
     const handleScroll = () => setScrollY(window.scrollY);
@@ -12,8 +12,18 @@ function Rocket() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Rocket starts at -50px then moves to center of vh when user scrolls down
-  const topPosition = Math.min(scrollY, window.innerHeight / 2);
+  // Rocket starts above viewport
+  // When user scrolls down, rocket moves to center of viewport
+  // Near bottom of window, rocket moves off-center, down to "land" on planet
+  // Moves off center when scrollProgress > 0.85
+  let topPosition = Math.min(scrollY, window.innerHeight / 2);
+  const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+  const scrollProgress = scrollable > 0 ? scrollY / scrollable : 0;
+
+  if (scrollProgress > 0.85) {
+    const landOffset = (scrollProgress - 0.85) / 0.15;
+    topPosition += landOffset * 150; // FIX: Make responsive
+  }
 
   return (
     <div
