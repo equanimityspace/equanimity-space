@@ -9,7 +9,7 @@ function Stars() {
 
   //   for each num in arr stars, create a unique div with a random position for the small star
   return (
-    <>
+    <div className="position-fixed top-0 left-0 vw-100 vh-100">
       {stars.map((star) => {
         const styleTop: string = Math.random() * 100 + "%";
         const styleLeft: string = Math.random() * 100 + "%";
@@ -23,20 +23,20 @@ function Stars() {
             key={star}
             className="bg-white star-twinkle"
             style={{
-	      position: "absolute",
+              position: "absolute",
               width: "1px",
               height: "1px",
               top: styleTop,
               left: styleLeft,
-	      pointerEvents: "none",
-	      animationDuration: animDuration,
-	      animationDelay: animDelay,
-	      opacity: 0.1, // Render with minimum opacity to avoid "popping" effect for first 5s
+              pointerEvents: "none",
+              animationDuration: animDuration,
+              animationDelay: animDelay,
+              opacity: 0.1, // Render with minimum opacity to avoid "popping" effect for first 5s
             }}
           ></div>
         );
       })}
-    </>
+    </div>
   );
 }
 
