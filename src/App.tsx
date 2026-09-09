@@ -1,15 +1,11 @@
-import "./assets/styling/App.css";
-
-import Planets from "./components/Planets";
-import Stars from "./components/Stars";
+import Stars from './components/Stars'
 
 function App() {
   return (
-    <>
-      <Planets />
+    <div className="container-fluid bg-black min-vh-100 vw-100 p-0 position-relative">
       <Stars />
-    </>
+    </div>
   );
 }
 
-export default App;
+export default App

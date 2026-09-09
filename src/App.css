@@ -1,0 +1,10 @@
+/* star twinkle */
+@keyframes twinkle {
+	0% { opacity: 0.1; }
+	50% { opacity: 1; }
+	100% { opacity: 0.1; }
+}
+
+.star-twinkle {
+	animation: twinkle linear infinite;
+}
