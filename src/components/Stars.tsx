@@ -14,9 +14,9 @@ function Stars() {
         const styleTop: string = Math.random() * 100 + "%";
         const styleLeft: string = Math.random() * 100 + "%";
 
-	// Random star twinkle
-	const animDuration: string = Math.random() * 3 + 2 + "s";
-	const animDelay: string = Math.random() * 5 + "s";
+        // Random star twinkle
+        const animDuration: string = Math.random() * 3 + 2 + "s";
+        const animDelay: string = Math.random() * 5 + "s";
 
         return (
           <div
