@@ -1,7 +1,7 @@
 import Stars from "./components/Stars";
 import Rocket from "./components/Rocket";
 import Planet from "./components/Planet";
-import Card from "./components/Card";
+import Project from "./utils/Projects";
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
       <Stars />
       <Rocket />
       <Planet />
+      <Project />
     </div>
   );
 }
