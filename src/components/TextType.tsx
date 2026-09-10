@@ -1,3 +1,6 @@
+// Credit:
+// https://www.reactbits.dev/text-animations/text-type?cursorCharacter=%E2%96%8E&deletingSpeed=30
+
 "use client";
 
 import {
