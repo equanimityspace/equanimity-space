@@ -8,8 +8,9 @@ updates:
   - package-ecosystem: "npm" # See documentation for possible values
     directory: "/" # Location of package manifests
     schedule:
-      interval: "daily"
+      interval: "weekly"
       time: "08:00"
+      day: "monday"
       timezone: "America/Denver"
     assignees:
       - "equanimityspace"
