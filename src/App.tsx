@@ -16,7 +16,7 @@
 
 import Stars from "./components/Stars";
 import Project from "./utils/Projects";
-import HeaderText from "./utils/ParticleTextContainer";
+import HeaderText from "./utils/HeaderText";
 
 function App() {
   return (

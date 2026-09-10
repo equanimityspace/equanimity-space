@@ -60,7 +60,7 @@ function Project() {
               position: "absolute",
               top: `${topPosition}vh`,
               // even cards on right, odd on left
-              left: isEven ? "60%" : "15%",
+              left: isEven ? "75%" : "15%",
               pointerEvents: "auto",
             }}
           >
