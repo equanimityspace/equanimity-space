@@ -18,6 +18,8 @@ import Stars from "./components/Stars";
 import Projects from "./utils/Projects";
 import HeaderText from "./utils/HeaderText";
 
+import { Analytics } from "@vercel/analytics/react";
+
 function App() {
   return (
     <div className="space-container container-fluid bg-black text-white vw-100 p-0 position-relative overflow-hidden">
@@ -38,6 +40,8 @@ function App() {
       >
         <Projects />
       </section>
+
+      <Analytics />
 
     </div>
   );
