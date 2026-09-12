@@ -17,6 +17,7 @@
 import Stars from "./components/Stars";
 import Projects from "./utils/Projects";
 import HeaderText from "./utils/HeaderText";
+import Footer from "./components/Footer";
 
 import { Analytics } from "@vercel/analytics/react";
 
@@ -25,7 +26,7 @@ function App() {
     <div className="space-container container-fluid bg-black text-white vw-100 p-0 position-relative overflow-hidden">
       <Stars />
 
-      {/* Header */}
+      {/* Header / Greeting */}
       <section
         className="container min-vh-100 d-flex flex-column justify-content-center align-items-center position-relative"
         style={{ zIndex: 2 }}
@@ -40,6 +41,11 @@ function App() {
       >
         <Projects />
       </section>
+
+      {/* footer */}
+      <footer className="container py-10 position-relative">
+        <Footer />
+      </footer>
 
       <Analytics />
 
