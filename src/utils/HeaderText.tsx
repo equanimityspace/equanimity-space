@@ -11,7 +11,7 @@ function HeaderText() {
           density={4}
           color="#f8fafc"
           highlightColor="#8b5cf6"
-          scatter={190}
+          scatter={80}
           gatherDuration={1600}
           stagger={420}
           pointerRepel={42}
