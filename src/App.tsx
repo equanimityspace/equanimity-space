@@ -15,15 +15,15 @@
 
 
 import Stars from "./components/Stars";
-import Project from "./utils/Projects";
+import Projects from "./utils/Projects";
 import HeaderText from "./utils/HeaderText";
 
 function App() {
   return (
     <div className="space-container container-fluid bg-black min-vh-100 vw-100 p-0 position-relative">
       <Stars />
-      <Project />
       <HeaderText />
+      <Projects />
     </div>
   );
 }
