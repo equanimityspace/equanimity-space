@@ -20,10 +20,25 @@ import HeaderText from "./utils/HeaderText";
 
 function App() {
   return (
-    <div className="space-container container-fluid bg-black min-vh-100 vw-100 p-0 position-relative">
+    <div className="space-container container-fluid bg-black text-white min-vh-100 vw-100 p-0 position-relative overflow-hidden">
       <Stars />
-      <HeaderText />
-      <Projects />
+
+      {/* Header */}
+      <section
+        className="container min-vh-100 d-flex flex-column justify-content-center align-items-center position-relative"
+        style={{ zIndex: 2 }}
+      >
+        <HeaderText />
+      </section>
+
+      {/* Projects */}
+      <section
+        className="container py-5 position-relative"
+        style={{ zIndex: 2 }}
+      >
+        <Projects />
+      </section>
+
     </div>
   );
 }
