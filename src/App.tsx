@@ -20,7 +20,7 @@ import HeaderText from "./utils/HeaderText";
 
 function App() {
   return (
-    <div className="space-container container-fluid bg-black text-white min-vh-100 vw-100 p-0 position-relative overflow-hidden">
+    <div className="space-container container-fluid bg-black text-white vw-100 p-0 position-relative overflow-hidden">
       <Stars />
 
       {/* Header */}

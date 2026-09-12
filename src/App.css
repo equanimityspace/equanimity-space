@@ -32,7 +32,6 @@ This file is part of equanimity.space.
 
 /* Gradient to solid bg */
 .space-container {
-    height: 400vh;
     background: linear-gradient(
         to bottom,
         rgba(0, 0, 0 , 0) 0%,
