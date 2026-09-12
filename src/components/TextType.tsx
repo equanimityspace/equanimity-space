@@ -13,7 +13,7 @@ import {
   useCallback,
 } from "react";
 import { gsap } from "gsap";
-import "../scss/TextType.css";
+import "../styles/TextType.css";
 
 interface TextTypeProps {
   className?: string;

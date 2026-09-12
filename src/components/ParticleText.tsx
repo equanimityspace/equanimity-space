@@ -2,7 +2,7 @@
 // https://www.reactbits.dev/text-animations/particle-text
 
 import { useEffect, useRef, type CSSProperties } from "react";
-import "../scss/ParticleText.css";
+import "../styles/ParticleText.css";
 
 export interface ParticleTextProps {
   text?: string;
