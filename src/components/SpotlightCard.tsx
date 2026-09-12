@@ -4,10 +4,10 @@
 import React, { useRef } from "react";
 import "../styles/SpotlightCard.css";
 
-interface Position {
-  x: number;
-  y: number;
-}
+//interface Position {
+//  x: number;
+//  y: number;
+//}
 
 interface SpotlightCardProps extends React.PropsWithChildren {
   className?: string;
