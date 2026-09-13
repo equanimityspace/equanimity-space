@@ -68,6 +68,11 @@ function Footer() {
           ))}
         </div>
       </div>
+      <div className="row mb-5 justify-content-center">
+        <div className="col-12 d-flex justify-content-center align-items-center">
+          <p>{"Made with </> by Ryan Cutrone"}</p>
+        </div>
+      </div>
     </div>
   );
 }
