@@ -16,6 +16,7 @@
 
 import SpotlightCard from "../components/SpotlightCard";
 import RustLogo from "../assets/rust.svg";
+import PythonLogo from "../assets/python-logo-only.svg";
 
 interface Project {
   id: number;
@@ -30,20 +31,20 @@ interface Project {
 const projects: Project[] = [
   {
     id: 1,
-    title: "Project One",
+    title: "Martial",
     image: RustLogo,
     image_alt: "Rust programming language logo",
-    description: "A cool placeholder",
-    url: "https://github.com/equanimityspace/equanimity-space",
+    description: "CLI tool for checking c2pa manifests for generative AI",
+    url: "https://github.com/equanimityspace/Martial",
     url_label: "View Repo",
   },
   {
     id: 2,
-    title: "Project Two",
-    image: RustLogo,
-    image_alt: "Rust programming language logo",
-    description: "Another placeholder, less cool but still cool",
-    url: "https://github.com/equanimityspace/equanimity-space",
+    title: "PlutoBot",
+    image: PythonLogo,
+    image_alt: "Python programming language logo",
+    description: "Proof-of-concept discord bot using Google's ai API",
+    url: "https://github.com/equanimityspace/PlutoBot/",
     url_label: "View Repo",
   },
 ];
