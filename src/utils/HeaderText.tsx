@@ -1,5 +1,4 @@
 import GradientText from "../components/GradientText";
-import ParticleText from "../components/GradientText";
 import TextType from "../components/TextType";
 
 function HeaderText() {
