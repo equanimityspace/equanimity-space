@@ -1,29 +1,19 @@
-import ParticleText from "../components/ParticleText";
+import GradientText from "../components/GradientText";
 import TextType from "../components/TextType";
 
 function HeaderText() {
   return (
     <div className="row justify-content-center text-center w-100">
       <div className="col-12 col-lg-10">
-        <ParticleText
-          text="Solutions for Tomorrow"
-          particleSize={2.2}
-          density={4}
-          color="#f8fafc"
-          highlightColor="#8b5cf6"
-          scatter={80}
-          gatherDuration={1600}
-          stagger={420}
-          pointerRepel={42}
-          repelRadius={120}
-          idleDrift={0.8}
-          trigger="mount"
-          fontSize="clamp(3rem, 12vw, 8rem)"
-          fontWeight={800}
-          fontFamily="inherit"
-          glow
-        />
-        <div className="mt-3">
+        <GradientText
+          colors={["#BE95C4", "#9F86C0", "#942193"]}
+          animationSpeed={8}
+          showBorder={false}
+          className="gradient-text display-1 fw-semibold"
+        >
+          Solutions for Tomorrow
+        </GradientText>
+        <div className="mt-5 fst-italic">
           <TextType
             text={[
               "The world is changing faster than ever before.",
