@@ -24,13 +24,16 @@ import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
-    <div className="space-container container-fluid bg-black text-white vw-100 p-0 position-relative overflow-hidden">
+    <div
+      className="space-container container-fluid bg-black text-white vw-100 p-0 position-relative overflow-hidden"
+      style={{ zIndex: 0 }}
+    >
       <Stars />
 
       {/* Header / Greeting */}
       <section
         className="container min-vh-100 d-flex flex-column justify-content-center align-items-center position-relative"
-        style={{ zIndex: 2 }}
+        style={{ zIndex: -1000 }}
       >
         <HeaderText />
       </section>
@@ -38,7 +41,7 @@ function App() {
       {/* About */}
       <section
         className="container min-vh-100 d-flex flex-column justify-content-center align-items-center position-relative"
-        style={{ zIndex: 2 }}
+        style={{ zIndex: 1000 }}
       >
         <About />
       </section>
@@ -46,13 +49,16 @@ function App() {
       {/* Projects */}
       <section
         className="container py-5 position-relative"
-        style={{ zIndex: 2 }}
+        style={{ zIndex: 1000 }}
       >
         <Projects />
       </section>
 
       {/* footer */}
-      <footer className="container py-10 position-relative">
+      <footer
+        className="container py-10 position-relative"
+        style={{ zIndex: 1000 }}
+      >
         <Footer />
       </footer>
 

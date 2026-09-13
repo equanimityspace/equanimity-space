@@ -48,7 +48,6 @@ function Stars() {
               animationDuration: animDuration,
               animationDelay: animDelay,
               opacity: 0.1, // Render with minimum opacity to avoid "popping" effect for first 5s
-              zIndex: -1,
             }}
           ></div>
         );
