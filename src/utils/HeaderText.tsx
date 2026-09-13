@@ -11,7 +11,7 @@ function HeaderText() {
           showBorder={false}
           className="gradient-text display-1 fw-semibold"
         >
-          Solutions for Tomorrow's Problems
+          Solutions for Tomorrow
         </GradientText>
         <div className="mt-5 fst-italic">
           <TextType
