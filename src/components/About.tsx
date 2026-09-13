@@ -18,10 +18,32 @@ function About() {
     <div className="py-5">
       <div className="row mb-5">
         <div className="col-12 text-center">
-          <h2 className="display-5 fw-bold text-white">About Me</h2>
+          <h2 className="display-5 fw-bold text-white">
+            Programming is More Than a Job
+          </h2>
           <hr className="w-25 mx-auto border-purple" />
         </div>
       </div>
+      <figure className="row mb-5 border-quote">
+        <blockquote className="blockquote mb-2">
+          <p className="mt-3 fs-4 text-secondary">
+            Hello! My name is Ryan Cutrone. I am a prospective junior developer
+            looking to help program solutions for tomorrow's problems.
+          </p>
+
+          <p className="fs-4 text-secondary">
+            I have a background in development with webdev technologies (Node,
+            React, Postgress) as well as Python, Rust, and more.
+          </p>
+
+          <p className="mb-3 fs-4 text-secondary">
+            Moreover, my eagerness to learn, ability to creatively problem
+            solve, and proven experience working as a part of a team in
+            high-stress environments are skills that are just as important as my
+            technical ability.
+          </p>
+        </blockquote>
+      </figure>
     </div>
   );
 }
