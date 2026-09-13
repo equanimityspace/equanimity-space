@@ -17,6 +17,7 @@
 import Stars from "./components/Stars";
 import Projects from "./utils/Projects";
 import HeaderText from "./utils/HeaderText";
+import About from "./components/About";
 import Footer from "./components/Footer";
 
 import { Analytics } from "@vercel/analytics/react";
@@ -32,6 +33,14 @@ function App() {
         style={{ zIndex: 2 }}
       >
         <HeaderText />
+      </section>
+
+      {/* About */}
+      <section
+        className="container min-vh-100 d-flex flex-column justify-content-center align-items-center position-relative"
+        style={{ zIndex: 2 }}
+      >
+        <About />
       </section>
 
       {/* Projects */}
