@@ -6,7 +6,7 @@ function HeaderText() {
     <div className="row justify-content-center text-center w-100">
       <div className="col-12 col-lg-10">
         <ParticleText
-          text="Ryan Cutrone"
+          text="Solutions for Tomorrow"
           particleSize={2.2}
           density={4}
           color="#f8fafc"
@@ -18,7 +18,7 @@ function HeaderText() {
           repelRadius={120}
           idleDrift={0.8}
           trigger="mount"
-          fontSize="clamp(3.5rem, 13vw, 9rem)"
+          fontSize="clamp(3rem, 12vw, 8rem)"
           fontWeight={800}
           fontFamily="inherit"
           glow
@@ -37,7 +37,7 @@ function HeaderText() {
             cursorCharacter="▌"
             cursorBlinkDuration={0.5}
             startOnVisible={true}
-            className="h4 h-md-3 text-secondary"
+            className="h1 h-md-5 mt-5 text-secondary"
           />
         </div>
       </div>

@@ -39,3 +39,12 @@ This file is part of equanimity.space.
         #46295a 200vh
     );
 }
+
+/* about me blockquote */
+.border-quote {
+    border-left: 4px solid #660066;
+    padding-left: 1rem;
+    margin-left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 0.4rem;
+}
